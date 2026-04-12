@@ -70,7 +70,7 @@
   "Funding.translation": "資金調達",
   "Level": "レベル",
   "Introduction": "Introduction",
-  "view the Lean game server on Github": "GitHub で Lean ゲームサーバーを表示する",
+  "view the Lean game server on Github": "Github で Lean ゲームサーバーを表示する",
   "<p>Do you want to delete your saved progress irreversibly?</p>": "<p>保存された進度を不可逆に削除するにはどの方法がよろしいでしょうか？</p>",
   "<p>Deleting everything will delete all your proofs and your collected inventory! It's recommended to download your progress first.</p><p>(Saves from other games are not deleted.)</p>": "",
   "Delete Progress?": "進捗を削除しますか？",
