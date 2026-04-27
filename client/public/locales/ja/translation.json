@@ -40,7 +40,7 @@
   "Level completed! 🎉": "レベル完了！🎉",
   "Level completed with warnings 🎭": "レベル完了（警告あり） 🎭",
   "Failed command": "コマンド失敗",
-  "Retry proof from here": "ここから証明をもう一度試みること",
+  "Retry proof from here": "ここから証明をやりなおす",
   "Retry": "リトライ",
   "Active Goal": "アクティブな目標",
   "Crashed! Go to editor mode and fix your proof! Last server response:": "Crashed!エディタモードに移動し、証明を修正してください。最後のサーバー応答:",
