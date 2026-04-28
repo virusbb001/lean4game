@@ -149,7 +149,7 @@ function ExerciseStatement({ showLeanStatement = false }) {
     <div className="exercise-statement">
       {levelInfo?.descrText ?
         <Markdown>
-          {(levelInfo?.displayName ? `**${t("Theorem")}** \`${levelInfo?.displayName}\`: ` : '') + t(levelInfo?.descrText, {ns: gameId})}
+          {(levelInfo?.displayName ? `**${t("Theorem")}** \`${levelInfo?.displayName}\`: ` : '') + gT(levelInfo?.descrText)}
         </Markdown> : levelInfo?.displayName &&
         <Markdown>
           {(levelInfo?.displayName ? `**${t("Theorem")}** \`${levelInfo?.displayName}\`: ` : '') + gT(levelInfo?.descrText ?? "")}
