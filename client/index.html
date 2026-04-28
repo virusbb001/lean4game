@@ -3,6 +3,21 @@
 
 <head>
   <meta charset="UTF-8" />
+  <script>
+    // Issue #451 workaround: Force User-Agent to ChromeOS on localhost:3000 to avoid path corruption in Monaco/VSCode
+    if (window.location.hostname === 'localhost' && window.location.port === '3000') {
+      const chromeOSUA = 'Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36';
+      Object.defineProperty(navigator, 'userAgent', {
+        get: function () { return chromeOSUA; },
+        configurable: true
+      });
+      Object.defineProperty(navigator, 'platform', {
+        get: function () { return 'Linux x86_64'; },
+        configurable: true
+      });
+      console.log('Issue #451 workaround applied: Forced User-Agent to ChromeOS');
+    }
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lean Game Server</title>
   <style>
