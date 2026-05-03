@@ -52,7 +52,7 @@
   "Not unlocked yet": "ロック中",
   "Not available in this level": "このレベルでは利用できません",
   "Subcaption.description": "証明アシスタント <1>Lean</1> <i>(Lean 4)</i> とその数学ライブラリ <2>mathlib</2> ための学習ゲームのリポジトリ。",
-  "Server capacity.description": "<p>このサーバーは私達の大学の機器上で Lean を実行しているため、リソースは限られています。ゲームの同時接続が約 50 ならば高パフォーマンスで、低処理速度状態でも最大 180 個ならサポートするものと推定されます。</p>",
+  "Server capacity.description": "<p>このサーバーは私達の大学の機器上で Lean を実行しているため、リソースは限られています。ゲームの同時接続が約 50 ならば高パフォーマンスで、低処理速度状態でも同時接続数最大 180 ならサポートするものと推定されます。</p>",
   "Development notes.description": "<p>ゲームとインフラの多くの側面は依然として開発中です。お困りの点については、お気軽に <1>GitHub Issue</1> を作成してください！</p>",
   "Adding new games.description": "ゲームの自作を考えている場合は、<1>GameSkeleton Github リポジトリ</1>をテンプレートとし、<2>ゲーム作成の仕方</2>をご参照ください。<p>サーバーへ直接ゲームをロードし、適切な URL を使ってプレイできます。上記の <3>手順</3> は、ゲームをサーバーにロードする方法の詳細も解説しています。ご質問がある場合は、お気軽にご連絡ください。</p><p>本ページに掲載されるゲームは手動で追加されています。あなたのゲームを追加したい場合はご連絡ください、喜んで対応いたします。</p>",
   "Funding.description": "このサーバーは、Heinrich Heine University Düsseldorfでホストされています。lean4game ソフトウェアは、<i>Stiftung Innovation in der Hochschullehre</i> のプログラムである <i>Freiraum 2022</i> で資金援助された、<1>ADAM: Anticipating the Digital Age of Mathematics</1> プロジェクトの一環として開発されました。継続的な保守および開発は、<i>AI for Math Fund</i>を通じて<i>Renaissance Philanthropy</i>により支援されています。",
